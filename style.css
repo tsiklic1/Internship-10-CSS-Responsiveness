@@ -16,7 +16,7 @@ body{
 .wrapper{
   background-color: #101820;
   margin: auto;
-  width: 1200px;
+  max-width: 1200px;
 }
 
 .navigation-wrapper{
@@ -129,4 +129,33 @@ body{
   position: absolute;
   right: 50px;
   bottom: 220px;
+}
+
+.features-wrapper{
+  height: 1150px;
+  display: flex;
+}
+
+.shapes-features-img{
+  width: 500px;
+  height: 500px;
+  position: sticky;
+  top: 150px;
+  margin-right: 90px;
+}
+
+.features-container{
+  margin-top: 20px;
+  max-width: 570px;
+}
+
+.feature-title{
+  font-size: 48px;
+  font-family: serif;
+}
+
+.feature-text{
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
 }
