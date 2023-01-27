@@ -20,7 +20,7 @@ body{
 
 .navigation-background{
   width: 100vw;
-  height: 122px;
+  height: 92px;
   position: fixed;
   background-color: #101820;
   top: 0;
@@ -33,7 +33,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 20px;
   position: fixed;
   top: 0;
@@ -174,14 +174,10 @@ body{
   line-height: 36px;
 }
 
-/* za ovi .partnerships-wrapper bi triba
-sad sve omotat sa ovon crnon pozadinon
-i onda samo njega u bilo stavit */
-
 .partnerships-background{
   background-color: white;
   height: 600px;
-  margin-bottom: 1000px;
+  margin-bottom: 200px;
 }
 
 .partnerships-text-box{
@@ -210,6 +206,45 @@ i onda samo njega u bilo stavit */
 }
 
 .partnerships-img{
-  width: 450px;
+  width: 400px;
   margin-right: 30px;
+}
+
+.partnership-link{
+  color: #101820;
+  text-decoration: none;
+}
+
+.footer-background{
+  height: 600px;
+  background-color: white;
+}
+
+.footer-wrapper{
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.footer-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer-flex{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.footer-text{
+  color:#101820;
+}
+
+.footer-text-box{
+  display:flex;
+  flex-direction: column;
 }
