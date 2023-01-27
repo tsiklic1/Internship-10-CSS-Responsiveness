@@ -14,29 +14,29 @@
         <div class="navigation-wrapper">
           <img src="assets/logo-white.svg" alt="" />
           <div class="navigation-choices-wrapper">
-            <div class="navigation-choice">
+            <div class="navigation-choice navigation-regular">
               <a
                 href="https://tillerdigital.com/work/"
                 class="navigation-choice-text"
                 >Work</a
               >
             </div>
-            <div class="navigation-choice">
+            <div class="navigation-choice navigation-regular cursor-default">
               <p class="navigation-choice-text">Services</p>
               <p class="triangle"></p>
             </div>
 
-            <div class="navigation-choice">
-              <p class="navigation-choice-text">Company</p>
+            <div class="navigation-choice navigation-regular">
+              <p class="navigation-choice-text cursor-default">Company</p>
               <p class="triangle"></p>
             </div>
-            <div class="navigation-choice">
-              <p class="navigation-choice-text">Resources</p>
+            <div class="navigation-choice navigation-regular">
+              <p class="navigation-choice-text cursor-default">Resources</p>
               <p class="triangle"></p>
             </div>
-            <div class="navigation-choice button">
-              <p class="navigation-choice-text">Book a Call</p>
-              <p class="triangle"></p>
+            <div class="navigation-choice button cursor-pointer">
+              <p class="navigation-choice-text cursor-pointer">Book a Call</p>
+              <p class="side-triangle"></p>
             </div>
           </div>
         </div>
@@ -54,14 +54,18 @@
         <div class="why-tiller-wrapper">
           <div class="blue-shadow"></div>
           <div class="why-tiller-white-container">
-            <h3 class="small-subtitle">Our 18-word elevator pitch.</h3>
-            <h2 class="why-tiller-title">
-              We’re SaaS and tech web specialists that integrate brand, web, and
-              product to drive conversion and product adoption.
-            </h2>
-            <a href="https://tillerdigital.com/about/" class="button"
-              >Why Tiller</a
-            >
+            <div class="why-tiller-text-box">
+              <h3 class="small-subtitle">Our 18-word elevator pitch.</h3>
+              <h2 class="why-tiller-title">
+                We’re SaaS and tech web specialists that integrate brand, web,
+                and product to drive conversion and product adoption.
+              </h2>
+              <a href="https://tillerdigital.com/about/" class="why-tiller-button cursor-pointer"
+                >Why Tiller
+                <p class="side-triangle"></p>
+                </a
+              >
+            </div>
             <img
               class="why-tiller-img"
               src="assets/shapes-why-tiller.png"
@@ -173,35 +177,51 @@
         <div class="footer-background">
           <div class="footer-wrapper">
             <div class="footer-box">
-              <img src="assets/logo-black.svg" alt="logo-black" />
-            </div>
-            <div class="footer-box footer-flex">
+              <img
+                class="footer-tiller-img"
+                src="assets/logo-black.svg"
+                alt="logo-black"
+              />
+
               <div class="footer-text-box">
-                <h4 class="footer-text bold">Services</h4>
+                <h4 class="footer-text footer-text__title">Services</h4>
                 <a href="" class="footer-text">Our Approach</a
                 ><a href="" class="footer-text">Web</a
                 ><a href="" class="footer-text">Brand</a
                 ><a href="" class="footer-text">Product</a>
               </div>
               <div class="footer-text-box">
-                <h4 class="footer-text bold">Company</h4>
+                <h4 class="footer-text footer-text__title">Company</h4>
+                <a class="footer-text" href="">Why Tiller?</a
+                ><a class="footer-text" href="">Our Work </a
+                ><a class="footer-text" href="">Our Team</a
+                ><a class="footer-text" href="">Our Story</a
+                ><a class="footer-text" href="">Our Culture</a
+                ><a class="footer-text" href="">Careers</a
+                ><a class="footer-text" href="">Contact</a>
               </div>
               <div class="footer-text-box">
-                <h4 class="footer-text bold">Resources</h4>
+                <h4 class="footer-text footer-text__title">Resources</h4>
+                <a href="" class="footer-text">Blog</a
+                ><a href="" class="footer-text">Glossary</a>
               </div>
             </div>
-            <div class="footer-box">
+
+            <div class="footer-box footer-box__badges">
               <a
+                class="badge-link"
                 href="https://upcity.com/local-marketing-agencies/profiles/tiller-digital#overview"
               >
                 <img src="assets/upcity-badge.svg" alt="upcity-badge" />
               </a>
               <a
+                class="badge-link"
                 href="https://upcity.com/local-marketing-agencies/profiles/tiller-digital#overview"
               >
                 <img src="assets/clutch-badge.svg" alt="clutch-badge" />
               </a>
               <a
+                class="badge-link"
                 href="https://upcity.com/local-marketing-agencies/profiles/tiller-digital#overview"
               >
                 <img
@@ -214,6 +234,8 @@
               <a class="button" href="">Book a Call</a>
             </div>
           </div>
+
+          <div calss="footer-bottom-box"></div>
         </div>
       </div>
     </div>
