@@ -53,8 +53,14 @@ body{
 } 
 
 .side-triangle{
+  margin-left: 8px;
   border: 10px solid transparent;
   border-left-color: white;
+}
+
+.side-triangle__blue{
+  border: 7px solid transparent;
+  border-left-color:#0042ce
 }
 
 .navigation-choices-wrapper{
@@ -137,7 +143,7 @@ body{
 }
 
 .why-tiller-white-container{
-  height: 500px;
+  height: 500px;  
   background-color: white;
   max-width: 1150px;
   position: relative;
@@ -203,6 +209,10 @@ body{
   max-width: 570px;
 }
 
+.feature-container{
+  margin-bottom: 100px;
+}
+
 .feature-title{
   font-size: 48px;
   font-family: serif;
@@ -214,15 +224,40 @@ body{
   line-height: 36px;
 }
 
+.learn-more-button{
+  width: 160px;
+  display: flex;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: 3px solid white;
+  align-items: center;
+  justify-content: center;
+}
+
+.learn-more-button:hover{
+  background-color: white;
+  transition: background-color 300ms ease-out
+}
+
+.learn-more-button:hover>*{
+  color:#0042ce;
+  border-left-color: #0042ce;
+  transition: color 300ms ease-out, border-left-color 300ms ease-out
+}
+
 .partnerships-background{
   background-color: white;
-  height: 600px;
+  padding-top: 50px;
+  height: 800px;
   margin-bottom: 200px;
 }
 
 .partnerships-text-box{
   max-width: 1200px;
   margin: auto;
+  position: relative;
+  padding-bottom: 16px;
+  margin-bottom: 50px;
 }
 
 .partnerships-wrapper{
@@ -235,9 +270,25 @@ body{
   color: #101820;
 }
 
+.see-our-work-button{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.see-our-work-button:hover>*{
+  color:#89e6d9;
+  border-left-color:#89e6d9;
+  transition: color 300ms ease-out, border-left-color 300ms ease-out;
+}
+
 .partnerships-link{
   color: #0042ce;
   text-decoration: none;
+  font-weight: bold;
+  font-family: helvetica;
 }
 
 .partnerships-img-container{
@@ -248,11 +299,20 @@ body{
 .partnerships-img{
   width: 400px;
   margin-right: 30px;
+  margin-bottom: 20px;
 }
 
 .partnership-link{
   color: #101820;
   text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: helvetica;
+}
+
+.partnership-link:hover{
+  color:#89e6d9;
+  transition: color 300ms ease-out;
 }
 
 .footer-background{
@@ -262,10 +322,11 @@ body{
 
 .footer-wrapper{
   padding-top: 70px;
+  padding-bottom: 30px;
   max-width: 1200px;
   display: flex;
-  justify-content: space-between;
   margin: auto;
+  border-bottom: 1px solid #eaeaea
 }
 
 .footer-box{
@@ -287,6 +348,7 @@ body{
 
 
 .footer-text__title{
+  margin-top: 0;
   font-weight: bold;
   width: 120px;
   border-bottom: 1px solid #eaeaea;
@@ -308,12 +370,103 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  margin-right: 64px;
 }
 
 .badge-link{
   margin-bottom: 20px;
 }
 
+.footer-box__right{
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.footer--button__inverse{
+  background-color: white;
+  border: 3px solid #0042ce;
+  display:flex;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 32px;
+}
+
+.footer--button__inverse:hover{
+  background-color: #0042ce;
+  transition: background-color 300ms ease-out;
+}
+
+.footer--button__inverse:hover>*{
+  border-left-color: white;
+  color: white;
+  transition: color 300ms ease-out, border-left-color 300ms ease-out;
+}
+
+.footer--button-text{
+  color:#0042ce;
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+.side-triangle__inverse{
+  margin-left: 8px;
+  border: 10px solid transparent;
+  border-left-color: #0042ce;
+}
+
+.footer--text{
+  color:#101820;
+  font-family: helvetica;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.footer--text__bold{
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.footer--text__link{
+  text-decoration: none;
+  margin-bottom: 32px;
+}
+
+.footer--text__link:hover{
+  color:#89e6d9;
+  transition: color 300ms ease-out;
+}
+
+.socials{
+  display: flex;
+}
+
+.socials--img-link{
+  margin-right: 30px;
+}
+
 .footer-bottom-box{
   display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.footer-bottom-box--text{
+  color: #101820;
+  font-size: 12px;
+  margin-right: 35px;
+}
+
+.footer-bottom-box--text__link{
+  text-decoration: none;
+}
+
+.footer-bottom-box--text__link:hover{
+  color:#89e6d9;
+  transition: color 300ms ease-out;
 }
