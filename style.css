@@ -284,6 +284,10 @@ body {
   line-height: 36px;
 }
 
+.f-c{
+  width: fit-content;
+}
+
 .learn-more-button {
   width: 160px;
   display: flex;
