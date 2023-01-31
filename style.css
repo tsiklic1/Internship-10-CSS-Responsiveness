@@ -113,7 +113,15 @@ body {
 
 .dropdown--link {
   color: #101820;
+  margin-bottom: 25px;
+  text-decoration: none;
 }
+
+.dropdown--link:hover{
+  color:#89e6d9;
+  transition: color 300ms ease-out;
+}
+
 
 .dropdown-background--img {
   position: absolute;
@@ -132,7 +140,11 @@ body {
 }
 
 .dropdown:hover > .dropdown-background {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-top: 30px;
+  justify-content: space-between;
 }
 
 .navigation-choice:last-child {
@@ -648,5 +660,24 @@ body {
   .why-tiller-img{
     display: none;
   }
+
+  /* izminit footer-bottom-box */
+}
+
+@media screen and (max-width: 550px){
+  /* smanjit sliku u featuers i u partnerships */
+  .shapes-features-img{
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+  }
+/* 
+  .partnership-info{
+    width: 90vw;
+  } */
+
+  /* .partnerships-img{
+    width: 90vw;
+  } */
 
 }
