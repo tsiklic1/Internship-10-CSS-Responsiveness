@@ -164,6 +164,10 @@ body {
   color: white;
 }
 
+.hamburger{
+  display: none;
+}
+
 .header-hero-wrapper {
   background-color: #101820;
   max-width: 1200px;
@@ -560,7 +564,67 @@ body {
 }
 
 @media screen and (max-width: 900px){
-  /* ode triba udrig hamburger */
+  .navigation-wrapper{
+    max-width: 450px;
+  }
+
+  .header-hero-wrapper{
+    height: 1100px;
+  }
+
+  .header-hero-container{
+    position: static;
+    max-width: 394px;
+    margin: auto;
+    padding-top: 450px;
+  }
+
+  .title-text{
+    font-size: 40px;
+  }
+
+
+  .navigation-choices-wrapper{
+    display: none;
+  }
+
+  .hamburger{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 36px;
+    height: 28px;
+  }
+
+  .hamburger>.hamburger--bar{
+    width: 100%;
+    height: 4px;
+    background-color: white;
+  }
+
+
+  .small-subtitle{
+    font-size: 22px;
+  }
+  .why-tiller-title{
+    font-size: 30px;
+  }
+
+  .why-tiller-wrapper{
+    max-width: 450px;
+    height: fit-content;
+    padding-bottom: 260px;
+  }
+
+  .why-tiller-white-container{
+    height: fit-content;
+    padding-bottom: 40px;
+  }
+
+  .why-tiller-text-box{
+    margin-left: 40px;
+  }
+
 
   .features-wrapper{
     flex-direction: column;
